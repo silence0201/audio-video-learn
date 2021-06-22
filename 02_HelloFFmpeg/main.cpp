@@ -10,7 +10,7 @@
 // FFmpeg是纯C语言的
 // C++是不能直接导入C语言函数的
 extern "C" {
-#include <libavcodec/avcodec.h>
+    #include <libavcodec/avcodec.h>
 }
 
 int main(int argc, char *argv[])
