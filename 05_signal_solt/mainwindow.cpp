@@ -19,6 +19,9 @@ MainWindow::MainWindow(QWidget *parent)
     connect(sender,&Sender::exit,reveiver,&Receiver::handleExit);
 
     emit sender->exit();
+
+    delete sender;
+    delete reveiver;
 }
 
 MainWindow::~MainWindow()
