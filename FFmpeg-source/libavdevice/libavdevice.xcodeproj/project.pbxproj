@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		E8045DF226A300BC0093598A /* dshow_crossbar.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dshow_crossbar.c; sourceTree = "<group>"; };
+		E8045DF326A300BC0093598A /* pulse_audio_dec.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pulse_audio_dec.c; sourceTree = "<group>"; };
+		E8045DF426A300BC0093598A /* dshow_filter.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dshow_filter.c; sourceTree = "<group>"; };
+		E8045DF526A300BC0093598A /* timefilter.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = timefilter.c; sourceTree = "<group>"; };
+		E8045DF626A300BC0093598A /* libavdevice.v */ = {isa = PBXFileReference; lastKnownFileType = text; path = libavdevice.v; sourceTree = "<group>"; };
+		E8045DF726A300BC0093598A /* dshow_capture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dshow_capture.h; sourceTree = "<group>"; };
+		E8045DF826A300BC0093598A /* internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = internal.h; sourceTree = "<group>"; };
+		E8045DF926A300BC0093598A /* v4l2enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v4l2enc.c; sourceTree = "<group>"; };
+		E8045DFA26A300BC0093598A /* file_open.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = file_open.c; sourceTree = "<group>"; };
+		E8045DFB26A300BC0093598A /* alsa_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = alsa_enc.c; sourceTree = "<group>"; };
+		E8045DFC26A300BC0093598A /* version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		E8045DFD26A300BC0093598A /* v4l2-common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "v4l2-common.h"; sourceTree = "<group>"; };
+		E8045DFE26A300BC0093598A /* decklink_dec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = decklink_dec.h; sourceTree = "<group>"; };
+		E8045DFF26A300BC0093598A /* fbdev_common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fbdev_common.h; sourceTree = "<group>"; };
+		E8045E0026A300BC0093598A /* sndio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sndio.h; sourceTree = "<group>"; };
+		E8045E0126A300BC0093598A /* oss.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = oss.h; sourceTree = "<group>"; };
+		E8045E0226A300BC0093598A /* oss_dec.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = oss_dec.c; sourceTree = "<group>"; };
+		E8045E0326A300BC0093598A /* avdevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = avdevice.h; sourceTree = "<group>"; };
+		E8045E0426A300BC0093598A /* iec61883.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = iec61883.c; sourceTree = "<group>"; };
+		E8045E0526A300BC0093598A /* decklink_common_c.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = decklink_common_c.h; sourceTree = "<group>"; };
+		E8045E0626A300BC0093598A /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		E8045E0726A300BC0093598A /* oss_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = oss_enc.c; sourceTree = "<group>"; };
+		E8045E0826A300BC0093598A /* sdl2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sdl2.c; sourceTree = "<group>"; };
+		E8045E0926A300BC0093598A /* avdeviceres.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = avdeviceres.rc; sourceTree = "<group>"; };
+		E8045E0A26A300BC0093598A /* decklink_enc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = decklink_enc.h; sourceTree = "<group>"; };
+		E8045E0B26A300BC0093598A /* tests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tests; sourceTree = "<group>"; };
+		E8045E0C26A300BC0093598A /* alsa_dec.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = alsa_dec.c; sourceTree = "<group>"; };
+		E8045E0D26A300BC0093598A /* decklink_common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = decklink_common.h; sourceTree = "<group>"; };
+		E8045E0E26A300BC0093598A /* jack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jack.c; sourceTree = "<group>"; };
+		E8045E0F26A300BC0093598A /* dshow_common.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dshow_common.c; sourceTree = "<group>"; };
+		E8045E1026A300BC0093598A /* alsa.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = alsa.c; sourceTree = "<group>"; };
+		E8045E1126A300BC0093598A /* xv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = xv.c; sourceTree = "<group>"; };
+		E8045E1226A300BC0093598A /* pulse_audio_common.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pulse_audio_common.c; sourceTree = "<group>"; };
+		E8045E1326A300BC0093598A /* audiotoolbox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = audiotoolbox.m; sourceTree = "<group>"; };
+		E8045E1426A300BC0093598A /* pulse_audio_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pulse_audio_enc.c; sourceTree = "<group>"; };
+		E8045E1526A300BC0093598A /* decklink_dec.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = decklink_dec.cpp; sourceTree = "<group>"; };
+		E8045E1626A300BC0093598A /* timefilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = timefilter.h; sourceTree = "<group>"; };
+		E8045E1726A300BC0093598A /* android_camera.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = android_camera.c; sourceTree = "<group>"; };
+		E8045E1826A300BC0093598A /* utils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = utils.c; sourceTree = "<group>"; };
+		E8045E1926A300BC0093598A /* reverse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = reverse.c; sourceTree = "<group>"; };
+		E8045E1A26A300BC0093598A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		E8045E1B26A300BC0093598A /* opengl_enc_shaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opengl_enc_shaders.h; sourceTree = "<group>"; };
+		E8045E1C26A300BC0093598A /* fbdev_dec.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fbdev_dec.c; sourceTree = "<group>"; };
+		E8045E1D26A300BC0093598A /* kmsgrab.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = kmsgrab.c; sourceTree = "<group>"; };
+		E8045E1E26A300BC0093598A /* dshow_enumpins.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dshow_enumpins.c; sourceTree = "<group>"; };
+		E8045E1F26A300BC0093598A /* lavfi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lavfi.c; sourceTree = "<group>"; };
+		E8045E2026A300BC0093598A /* decklink_enc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = decklink_enc.cpp; sourceTree = "<group>"; };
+		E8045E2126A300BC0093598A /* avdevice.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = avdevice.c; sourceTree = "<group>"; };
+		E8045E2226A300BC0093598A /* oss.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = oss.c; sourceTree = "<group>"; };
+		E8045E2326A300BC0093598A /* sndio.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sndio.c; sourceTree = "<group>"; };
+		E8045E2426A300BC0093598A /* fbdev_common.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fbdev_common.c; sourceTree = "<group>"; };
+		E8045E2526A300BC0093598A /* openal-dec.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "openal-dec.c"; sourceTree = "<group>"; };
+		E8045E2626A300BC0093598A /* bktr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bktr.c; sourceTree = "<group>"; };
+		E8045E2726A300BC0093598A /* sndio_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sndio_enc.c; sourceTree = "<group>"; };
+		E8045E2826A300BC0093598A /* v4l2-common.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "v4l2-common.c"; sourceTree = "<group>"; };
+		E8045E2926A300BC0093598A /* sndio_dec.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sndio_dec.c; sourceTree = "<group>"; };
+		E8045E2A26A300BC0093598A /* decklink_dec_c.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = decklink_dec_c.c; sourceTree = "<group>"; };
+		E8045E2B26A300BC0093598A /* dshow_enummediatypes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dshow_enummediatypes.c; sourceTree = "<group>"; };
+		E8045E2C26A300BC0093598A /* opengl_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = opengl_enc.c; sourceTree = "<group>"; };
+		E8045E2D26A300BC0093598A /* dshow.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dshow.c; sourceTree = "<group>"; };
+		E8045E2E26A300BC0093598A /* v4l2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = v4l2.c; sourceTree = "<group>"; };
+		E8045E2F26A300BC0093598A /* libcdio.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = libcdio.c; sourceTree = "<group>"; };
+		E8045E3026A300BC0093598A /* avfoundation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = avfoundation.m; sourceTree = "<group>"; };
+		E8045E3126A300BC0093598A /* caca.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = caca.c; sourceTree = "<group>"; };
+		E8045E3226A300BC0093598A /* fbdev_enc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fbdev_enc.c; sourceTree = "<group>"; };
+		E8045E3326A300BC0093598A /* pulse_audio_common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pulse_audio_common.h; sourceTree = "<group>"; };
+		E8045E3426A300BC0093598A /* libdc1394.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = libdc1394.c; sourceTree = "<group>"; };
+		E8045E3526A300BC0093598A /* xcbgrab.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = xcbgrab.c; sourceTree = "<group>"; };
+		E8045E3626A300BC0093598A /* vfwcap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = vfwcap.c; sourceTree = "<group>"; };
+		E8045E3726A300BC0093598A /* decklink_common.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = decklink_common.cpp; sourceTree = "<group>"; };
+		E8045E3826A300BC0093598A /* decklink_enc_c.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = decklink_enc_c.c; sourceTree = "<group>"; };
+		E8045E3926A300BC0093598A /* alldevices.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = alldevices.c; sourceTree = "<group>"; };
+		E8045E3A26A300BC0093598A /* gdigrab.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gdigrab.c; sourceTree = "<group>"; };
+		E8045E3B26A300BC0093598A /* alsa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = alsa.h; sourceTree = "<group>"; };
+		E8045E3C26A300BC0093598A /* dshow_pin.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dshow_pin.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		E8045DEC26A300BC0093598A = {
+			isa = PBXGroup;
+			children = (
+				E8045DF226A300BC0093598A /* dshow_crossbar.c */,
+				E8045DF326A300BC0093598A /* pulse_audio_dec.c */,
+				E8045DF426A300BC0093598A /* dshow_filter.c */,
+				E8045DF526A300BC0093598A /* timefilter.c */,
+				E8045DF626A300BC0093598A /* libavdevice.v */,
+				E8045DF726A300BC0093598A /* dshow_capture.h */,
+				E8045DF826A300BC0093598A /* internal.h */,
+				E8045DF926A300BC0093598A /* v4l2enc.c */,
+				E8045DFA26A300BC0093598A /* file_open.c */,
+				E8045DFB26A300BC0093598A /* alsa_enc.c */,
+				E8045DFC26A300BC0093598A /* version.h */,
+				E8045DFD26A300BC0093598A /* v4l2-common.h */,
+				E8045DFE26A300BC0093598A /* decklink_dec.h */,
+				E8045DFF26A300BC0093598A /* fbdev_common.h */,
+				E8045E0026A300BC0093598A /* sndio.h */,
+				E8045E0126A300BC0093598A /* oss.h */,
+				E8045E0226A300BC0093598A /* oss_dec.c */,
+				E8045E0326A300BC0093598A /* avdevice.h */,
+				E8045E0426A300BC0093598A /* iec61883.c */,
+				E8045E0526A300BC0093598A /* decklink_common_c.h */,
+				E8045E0626A300BC0093598A /* Makefile */,
+				E8045E0726A300BC0093598A /* oss_enc.c */,
+				E8045E0826A300BC0093598A /* sdl2.c */,
+				E8045E0926A300BC0093598A /* avdeviceres.rc */,
+				E8045E0A26A300BC0093598A /* decklink_enc.h */,
+				E8045E0B26A300BC0093598A /* tests */,
+				E8045E0C26A300BC0093598A /* alsa_dec.c */,
+				E8045E0D26A300BC0093598A /* decklink_common.h */,
+				E8045E0E26A300BC0093598A /* jack.c */,
+				E8045E0F26A300BC0093598A /* dshow_common.c */,
+				E8045E1026A300BC0093598A /* alsa.c */,
+				E8045E1126A300BC0093598A /* xv.c */,
+				E8045E1226A300BC0093598A /* pulse_audio_common.c */,
+				E8045E1326A300BC0093598A /* audiotoolbox.m */,
+				E8045E1426A300BC0093598A /* pulse_audio_enc.c */,
+				E8045E1526A300BC0093598A /* decklink_dec.cpp */,
+				E8045E1626A300BC0093598A /* timefilter.h */,
+				E8045E1726A300BC0093598A /* android_camera.c */,
+				E8045E1826A300BC0093598A /* utils.c */,
+				E8045E1926A300BC0093598A /* reverse.c */,
+				E8045E1A26A300BC0093598A /* .gitignore */,
+				E8045E1B26A300BC0093598A /* opengl_enc_shaders.h */,
+				E8045E1C26A300BC0093598A /* fbdev_dec.c */,
+				E8045E1D26A300BC0093598A /* kmsgrab.c */,
+				E8045E1E26A300BC0093598A /* dshow_enumpins.c */,
+				E8045E1F26A300BC0093598A /* lavfi.c */,
+				E8045E2026A300BC0093598A /* decklink_enc.cpp */,
+				E8045E2126A300BC0093598A /* avdevice.c */,
+				E8045E2226A300BC0093598A /* oss.c */,
+				E8045E2326A300BC0093598A /* sndio.c */,
+				E8045E2426A300BC0093598A /* fbdev_common.c */,
+				E8045E2526A300BC0093598A /* openal-dec.c */,
+				E8045E2626A300BC0093598A /* bktr.c */,
+				E8045E2726A300BC0093598A /* sndio_enc.c */,
+				E8045E2826A300BC0093598A /* v4l2-common.c */,
+				E8045E2926A300BC0093598A /* sndio_dec.c */,
+				E8045E2A26A300BC0093598A /* decklink_dec_c.c */,
+				E8045E2B26A300BC0093598A /* dshow_enummediatypes.c */,
+				E8045E2C26A300BC0093598A /* opengl_enc.c */,
+				E8045E2D26A300BC0093598A /* dshow.c */,
+				E8045E2E26A300BC0093598A /* v4l2.c */,
+				E8045E2F26A300BC0093598A /* libcdio.c */,
+				E8045E3026A300BC0093598A /* avfoundation.m */,
+				E8045E3126A300BC0093598A /* caca.c */,
+				E8045E3226A300BC0093598A /* fbdev_enc.c */,
+				E8045E3326A300BC0093598A /* pulse_audio_common.h */,
+				E8045E3426A300BC0093598A /* libdc1394.c */,
+				E8045E3526A300BC0093598A /* xcbgrab.c */,
+				E8045E3626A300BC0093598A /* vfwcap.c */,
+				E8045E3726A300BC0093598A /* decklink_common.cpp */,
+				E8045E3826A300BC0093598A /* decklink_enc_c.c */,
+				E8045E3926A300BC0093598A /* alldevices.c */,
+				E8045E3A26A300BC0093598A /* gdigrab.c */,
+				E8045E3B26A300BC0093598A /* alsa.h */,
+				E8045E3C26A300BC0093598A /* dshow_pin.c */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		E8045DF126A300BC0093598A /* libavdevice */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = E8045E3D26A300BC0093598A /* Build configuration list for PBXLegacyTarget "libavdevice" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/silence/Documents/Code/FFmpeg/FFmpeg/libavdevice;
+			dependencies = (
+			);
+			name = libavdevice;
+			passBuildSettingsInEnvironment = 1;
+			productName = libavdevice;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		E8045DED26A300BC0093598A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = E8045DF026A300BC0093598A /* Build configuration list for PBXProject "libavdevice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8045DEC26A300BC0093598A;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8045DF126A300BC0093598A /* libavdevice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		E8045DEE26A300BC0093598A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		E8045DEF26A300BC0093598A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		E8045E3E26A300BC0093598A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libavdevice;
+			};
+			name = Debug;
+		};
+		E8045E3F26A300BC0093598A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = libavdevice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8045DF026A300BC0093598A /* Build configuration list for PBXProject "libavdevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8045DEE26A300BC0093598A /* Debug */,
+				E8045DEF26A300BC0093598A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8045E3D26A300BC0093598A /* Build configuration list for PBXLegacyTarget "libavdevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8045E3E26A300BC0093598A /* Debug */,
+				E8045E3F26A300BC0093598A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8045DED26A300BC0093598A /* Project object */;
+}
